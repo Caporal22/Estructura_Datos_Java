@@ -1,0 +1,108 @@
+#################################################
+#             Compiled & Build Files           #
+#################################################
+# Archivos compilados de Java
+*.class
+
+# Carpetas de salida de compilación
+out/
+target/
+build/
+
+# Archivos de paquetes
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Crash logs de JVM
+hs_err_pid*
+
+#################################################
+#                 IDE / Editor                 #
+#################################################
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+#################################################
+#                 Sistema                     #
+#################################################
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#################################################
+#                   Logs                        #
+#################################################
+*.log
+
+#################################################
+#                   Temp                        #
+#################################################
+*.tmp
+*.swp
+*.swo
+*.bak
+
+#################################################
+#           Versiones antiguas / Backup         #
+#################################################
+*~
+*.old
+*.orig
+*.rej
+
+#################################################
+#             Archivos sensibles               #
+#################################################
+# Variables de entorno y credenciales
+*.env
+*.env.*
+secrets/
+config/*.properties
+config/*.yml
+config/*.json
+config/*.xml
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.h2.db
+*.derby
+*.mv.db
+
+# Archivos generados por contenedores / Docker
+docker-compose.override.yml
+*.dockerfile
+
+#################################################
+#           Otras herramientas                 #
+#################################################
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+# BlueJ
+*.ctxt
